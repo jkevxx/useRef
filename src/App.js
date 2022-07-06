@@ -1,9 +1,11 @@
-import FocusApp from "./components/1Focus/FocusApp";
+// import FocusApp from "./components/1Focus/FocusApp";
+import CopyApp from "./components/2Copy/CopyApp";
 
 function App() {
   return (
     <div className="App">
-      <FocusApp />
+      {/* <FocusApp /> */}
+      <CopyApp />
     </div>
   );
 }
