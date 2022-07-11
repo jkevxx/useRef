@@ -2,7 +2,9 @@
 // import CopyApp from "./components/2Copy/CopyApp";
 // import MediaPlayerApp from "./components/3MediaPlayer/MediaPlayerApp";
 
-import ScrollAnimationApp from "./components/4ScrollAnimation/ScrollAnimationApp";
+// import ScrollAnimationApp from "./components/4ScrollAnimation/ScrollAnimationApp";
+// import RenderApp from "./components/5Render/RenderApp";
+import LoadingApp from "./components/6LoadingApp/LoadingApp";
 
 function App() {
   return (
@@ -10,7 +12,9 @@ function App() {
       {/* <FocusApp /> */}
       {/* <CopyApp /> */}
       {/* <MediaPlayerApp /> */}
-      <ScrollAnimationApp />
+      {/* <ScrollAnimationApp /> */}
+      {/* <RenderApp /> */}
+      <LoadingApp />
     </div>
   );
 }
